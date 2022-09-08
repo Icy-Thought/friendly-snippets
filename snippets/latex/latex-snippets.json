@@ -347,7 +347,7 @@
   "Figure": {
     "prefix": "figure",
     "body": [
-      "\\begin{figure}[ht]",
+      "\\begin{figure}[htbp]",
       "\t\\begin{center}",
       "\t\t\\includegraphics[width=\\columnwidth]{figures/$1}",
       "\t\\end{center}",
@@ -361,7 +361,7 @@
   "Figure:ACM": {
     "prefix": "figure:acm",
     "body": [
-      "\\begin{figure}[ht]",
+      "\\begin{figure}[htbp]",
       "\t\\includegraphics[width=0.45\\textwidth]{figures/$1}",
       "\t\\caption{$2}",
       "\t\\label{fig:$3}",
@@ -373,7 +373,7 @@
   "Figure:ACM:*": {
     "prefix": "figure:acm:*",
     "body": [
-      "\\begin{figure*}[ht]",
+      "\\begin{figure*}[htbp]",
       "\t\\includegraphics[width=0.45\\textwidth]{figures/$1}",
       "\t\\caption{$2}",
       "\t\\label{fig:$3}",
@@ -385,7 +385,7 @@
   "Table": {
     "prefix": "table",
     "body": [
-      "\\begin{table}",
+      "\\begin{table}[htbp]",
       "\t\\caption{$1}",
       "\t\\label{tab:$2}",
       "\t\\begin{center}",
