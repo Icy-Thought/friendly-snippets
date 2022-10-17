@@ -56,12 +56,12 @@
   },
   "Insert italic text": {
     "prefix": ["i", "italic"],
-    "body": "*${1}* $0",
+    "body": "_${1}_ $0",
     "description": "Insert italic text"
   },
   "Insert bold and italic text": {
     "prefix": ["bold and italic", "bi"],
-    "body": "***${1}*** $0",
+    "body": "_**${1}**_ $0",
     "description": "Insert bold and italic text"
   },
   "Insert quoted text": {
